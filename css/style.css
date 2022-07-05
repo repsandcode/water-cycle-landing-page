@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --gold: rgba(251, 210, 67, 1);
+
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+
+li{
+  list-style: none;
+}
+
+
+/* LAYOUT */
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 2rem 4rem;
+}
+
+
+/* header */
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header .logo{
+  height: 50.95px;
+  width: 149.41px;
+  margin-right: 40px;
+}
+
+.header .logo .sinau{
+  font-size: .7rem;
+  letter-spacing: .5rem;
+  height: 8.556000709533691px;
+  width: 74.63240814208984px;
+  text-transform: uppercase;
+}
+
+.header .logo .geograph{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  height: 34.560001373291016px;
+  width: 141.18487548828125px;
+}
+
+.header .logo .geograph span{
+  color: var(--gold);
+}
+
+
+.header nav{
+  width: 362px;
+}
+
+.header nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header nav ul li a{
+  color: rgba(97, 100, 98, 1);
+  
+  font-size: 12px;
+  font-weight: 500;
+  /* identical to box height, or 200% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header nav ul li:first-child a{
+  color: #6CB48F;
+}
