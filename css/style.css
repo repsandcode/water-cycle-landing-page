@@ -14,7 +14,7 @@ a{
 }
 
 body{
-  background: #E5E5E5;
+  background: #FFFFFF;
   font-family: 'Poppins', sans-serif;
   font-size: 62.5%;
 }
@@ -33,6 +33,7 @@ li{
   margin: 0 auto;
   max-width: 1400px;
   padding: 2rem 4rem;
+  position: relative;
 }
 
 
@@ -121,4 +122,32 @@ li{
   height: 2px;
   
   background: #2C2D36;
+}
+
+
+
+/* rectangle gradient box */
+.gradient-rec-box{
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 400px;
+  top: 100px;
+  background: linear-gradient(180deg, #E6F5EB 0%, rgba(230, 245, 235, 0) 100%);
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+}
+
+
+/* image box */
+.image-box{
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 500px;
+  top: 20px;
+}
+
+.image-box img{
+  width: 100%;
 }
