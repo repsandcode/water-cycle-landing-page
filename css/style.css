@@ -45,12 +45,12 @@ li{
 .header .logo{
   height: 50.95px;
   width: 149.41px;
-  margin-right: 40px;
+  cursor: pointer;
 }
 
 .header .logo .sinau{
   font-size: .7rem;
-  letter-spacing: .5rem;
+  letter-spacing: .6rem;
   height: 8.556000709533691px;
   width: 74.63240814208984px;
   text-transform: uppercase;
@@ -69,10 +69,12 @@ li{
 
 
 .header nav{
-  width: 362px;
+  flex-grow: 1;
 }
 
 .header nav ul{
+  margin-left: 60px;
+  width: 362px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,7 +83,7 @@ li{
 .header nav ul li a{
   color: rgba(97, 100, 98, 1);
   
-  font-size: 12px;
+  font-size: .9rem;
   font-weight: 500;
   /* identical to box height, or 200% */
   
@@ -93,4 +95,30 @@ li{
 
 .header nav ul li:first-child a{
   color: #6CB48F;
+}
+
+
+.header .rec-menu{
+  
+  width: 28px;
+  height: 13px; 
+  
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header .rec-menu .rec0{
+  width: 28px;
+  height: 3px;
+  
+  background: #2C2D36;
+}
+
+.header .rec-menu .rec1{
+  width: 14px;
+  height: 2px;
+  
+  background: #2C2D36;
 }
