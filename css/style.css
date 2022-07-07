@@ -126,6 +126,10 @@ li{
 
 
 
+
+
+
+
 /* rectangle gradient box */
 .gradient-rec-box{
   position: absolute;
@@ -141,11 +145,11 @@ li{
 
 /* image box */
 .image-box{
-  position: absolute;
+  position: relative;
   width: 400px;
   height: 500px;
-  left: 500px;
-  top: 20px;
+  right: 35px;
+  top: 100px;
 }
 
 .image-box img{
