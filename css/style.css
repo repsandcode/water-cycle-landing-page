@@ -126,22 +126,18 @@ li{
 
 
 
-
-
-
-
-/* rectangle gradient box */
-.gradient-rec-box{
-  position: absolute;
-  width: 400px;
-  height: 600px;
-  left: 400px;
-  top: 100px;
-  background: linear-gradient(180deg, #E6F5EB 0%, rgba(230, 245, 235, 0) 100%);
-  border-top-left-radius: 20rem;
-  border-top-right-radius: 20rem;
+.main{
+  display: flex;
+  width: 100%;
 }
 
+.main .info{
+  width: 50%;
+}
+
+.main .visual-info{
+  width: 50%;
+}
 
 /* image box */
 .image-box{
@@ -154,4 +150,16 @@ li{
 
 .image-box img{
   width: 100%;
+}
+
+/* rectangle gradient box */
+.gradient-rec-box{
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 400px;
+  top: 100px;
+  background: linear-gradient(180deg, #E6F5EB 0%, rgba(230, 245, 235, 0) 100%);
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
 }
