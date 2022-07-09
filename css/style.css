@@ -179,6 +179,8 @@ li{
   /* height: 41px; */
   font-weight: 400;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .main .info .free-ebook .free{
@@ -193,7 +195,7 @@ li{
 
 .main .info .free-ebook .ebook{
   font-size: .8rem;
-  margin-left: .4rem;
+  margin: 0 2rem 0 1rem;
 }
 
 .main .info .free-ebook .circle{
@@ -201,16 +203,36 @@ li{
   height: 1.3rem;
   border-radius: 50%;
   background: #6CB48F;
-  position: absolute;
+  position: relative;
   right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main .info .free-ebook .arrow-line{
+  border-bottom: 1px solid #FFFFFF;
+  width: 11px;
 }
 
 .main .info .free-ebook .arrow{
-  width: 16px;
-  height: 0px;
+  border: solid #FFFFFF;
+  border-width: 0 1px 1px 0;
+  padding: .1rem;
   position: absolute;
+  left: 8px;
+}
+
+.main .info .free-ebook .right{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.main .info .free-ebook .outside-line{
+  position: relative;
   right: 0;
-  border: 1px solid red;
+  border-bottom: 1px solid #6CB48F;
+  width: 15px;
 }
 
 
