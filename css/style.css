@@ -31,7 +31,8 @@ li{
 /* LAYOUT */
 .container{
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1440px;
+  max-height: 1100px;
   padding: 2rem 4rem;
   position: relative;
 }
